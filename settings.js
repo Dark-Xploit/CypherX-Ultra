@@ -6,20 +6,16 @@
  */
 
 module.exports = {
-  // Web dashboard password — required to pair sessions and access settings
-  MASTER_PASSWORD: process.env.MASTER_PASSWORD || "123456",
-
-  // PostgreSQL connection string (auto-set by Heroku Postgres add-on)
-  DATABASE_URL: process.env.DATABASE_URL || null,
-
-  // Session access code settings (don't change if you don't know what you're doing)
+  MASTER_PASSWORD: "123456",
+  
+  // Session access code settings(don't change if you don't know what you're doing)
   ACCESS_CODE_LENGTH: 6,
   ACCESS_CODE_EXPIRY: 5 * 60 * 1000,
-
-  // Server port (auto-set by Heroku)
+  
+  // Server port
   PORT: process.env.PORT || 3000,
-
-  // Your GitHub username (must have forked the repo)
+  
+  //Your GitHub username(make sure you've forked this bot without changing the name)
   GITHUB_USERNAME: process.env.GITHUB_USERNAME || '',
-
+ 
 };

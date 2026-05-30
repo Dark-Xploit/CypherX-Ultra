@@ -100,8 +100,7 @@ Click the button below and fill in the config vars when prompted, make sure you 
 
 ```bash
 # 1. Clone your fork
-git clone https://github.com/<YOUR_USERNAME>/CypherX-Ultra
-cd CypherX-Ultra
+git clone https://github.com/<YOUR_USERNAME>/Deviemkuu
 
 # 2. Install dependencies
 npm install
